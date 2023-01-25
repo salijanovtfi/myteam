@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@700&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Livvic', sans-serif;
+}
+
+.container{
+    max-width: 1011px;
+    padding: 0 83px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site__header-container{
+    background: #014E56;
+    padding-top: 59px;
+    padding-bottom: 59px;
+}
+
+.logo-link{
+    display: block; 
+}
+
+.header-title{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    color: #FFFFFF;
+}
+
+.colors-span{
+    width: 56px;
+    height: 56px;
+    background: #014E56;
+    border-radius: 50%;
+
+}
+
+.colors-title{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 42px;
+letter-spacing: -0.357143px;
+color: #012F34;
+
+margin-bottom: 48px;
+}
+
+.site-colors-container{
+    padding-top: 62px;
+}
+.primary{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 18px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #2C6269;
+}
+.site-primary{
+    display: flex;
+    justify-content: space-between;
+}
+.primary-text{
+    width: 144px;
+}
+
+.site-oval{
+    margin-bottom: 15px;
+}
+
+.site-colors-title{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 18px;
+color: #002529;
+margin-bottom: 4px;
+}
+
+.primary-text{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+color: #002529;
+mix-blend-mode: normal;
+opacity: 0.7;
+}
+
+.site-oval-bar{
+    margin-left: 130px;
+}
+.site-primary{
+    margin-bottom: 40px;
+}
+.jam{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 156px;
+}
+.secondary{
+    justify-content: space-between;
+}
+
+.block{
+    margin-right: 40px;
+    margin-bottom: 48px;
+
+}
+
+.colors{
+    margin-bottom: 56px;
+}
+
+.line{
+    background: #33323D;
+    mix-blend-mode: normal;
+}
+
+.site-tipo-title{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 42px;
+letter-spacing: -0.357143px;
+color: #012F34;
+margin-bottom: 48px;
+}
+
+.site-tipo{
+    padding-top: 56px;
+}
+
+.black{
+    width: 100px;
+    height: 100px;
+    background: #002529;
+    padding: 27px 22px 31px 25px;
+}
+
+.fontable{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 42px;
+letter-spacing: -0.357143px;
+color: #FFFFFF;
+}
+
+.grey{
+    width: 166px;
+    height: 100px;
+    background: #E6EAEA;
+    padding-top: 41px;
+    padding-bottom: 41px;
+}
+
+.livik{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 18px;
+text-align: center;
+color: #33323D;
+margin-left: auto;
+margin-right: auto;
+}
+.font-family{
+    display: flex;
+}
+.fonts{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.headings-title{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 18px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #2C6269;
+margin-bottom: 32px;
+}
+
+.headings-p{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 18px;
+color: #002529;
+margin-bottom: 16px;
+}
+
+.headings-h1{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 100px;
+color: #002529;
+margin-bottom: 32px;
+width: 396px;
+}
+.headings-small{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    width: 396px;
+    color: #002529;
+   margin-bottom: 32px;
+}
+
+.headings-bold{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+color: #002529;
+margin-bottom: 32px;
+width: 396px;
+}
+
+.headings-h3{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+color: #002529;
+}
+
+.elyor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headings-text{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color: #002529;
+width: 396px;
+margin-bottom: 43px;
+}
+
+.site-tipo{
+    padding-bottom: 56px;
+}
